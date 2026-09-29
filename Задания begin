@@ -1,0 +1,141 @@
+#6
+a = float(input("Введите a: "))
+b = float(input("Введите b: "))
+c = float(input("Введите c: "))
+V = a * b * c
+S = 2 * (a * b + b * c + a * c)
+print(f"Объем V = {V:.2f}")
+print(f"Площадь S = {S:.2f}")
+
+
+#7
+R = float(input("Введите радиус R: "))
+pi = 3.14
+L = 2 * pi * R
+S = pi * (R ** 2)
+
+
+#8
+print(f"Длина окружности L = {L:.2f}")
+print(f"Площадь круга S = {S:.2f}")
+a = float(input("Введите a: "))
+b = float(input("Введите b: "))
+mean_arr = (a + b) / 2
+print(f"Среднее арифметическое = {mean_arr:.2f}")
+
+
+#9
+a = float(input("Введите неотрицательное a: "))
+b = float(input("Введите неотрицательное b: "))
+mean_geom = math.sqrt(a * b)
+print(f"Среднее геометрическое = {mean_geom:.2f}")
+
+
+#10
+a = float(input("Введите ненулевое a: "))
+b = float(input("Введите ненулевое b: "))
+a2 = a ** 2
+b2 = b ** 2
+print(f"Сумма квадратов = {a2 + b2:.2f}")
+print(f"Разность квадратов = {a2 - b2:.2f}")
+print(f"Произведение квадратов = {a2 * b2:.2f}")
+print(f"Частное квадратов = {a2 / b2:.2f}")
+
+
+#11
+такое же как и 10
+
+
+#12
+a = float(input("Введите катет a: "))
+b = float(input("Введите катет b: "))
+c = math.sqrt(a**2 + b**2)
+P = a + b + c
+print(f"Гипотенуза c = {c:.2f}")
+print(f"Периметр P = {P:.2f}")
+
+
+#13
+R1 = float(input("Введите внешний радиус R1: "))
+R2 = float(input("Введите внутренний радиус R2 (меньше R1): "))
+pi = 3.14
+S1 = pi * (R1 ** 2)
+S2 = pi * (R2 ** 2)
+S3 = S1 - S2
+print(f"S1 = {S1:.2f}, S2 = {S2:.2f}, Площадь кольца S3 = {S3:.2f}")
+
+
+
+#14
+L = float(input("Введите длину окружности L: "))
+pi = 3.14
+R = L / (2 * pi)
+S = pi * (R ** 2)
+print(f"Радиус R = {R:.2f}")
+print(f"Площадь круга S = {S:.2f}")
+
+
+
+#15
+S = float(input("Введите площадь круга S: "))
+pi = 3.14
+R = math.sqrt(S / pi)
+D = 2 * R
+L = 2 * pi * R
+print(f"Диаметр D = {D:.2f}")
+print(f"Длина окружности L = {L:.2f}")
+
+
+#16
+x1 = float(input("Введите координату x1: "))
+x2 = float(input("Введите координату x2: "))
+dist = abs(x2 - x1)
+print(f"Расстояние = {dist:.2f}")
+
+
+
+#17
+A = float(input("Введите координату точки A: "))
+B = float(input("Введите координату точки B: "))
+C = float(input("Введите координату точки C: "))
+AC = abs(C - A)
+BC = abs(C - B)
+total = AC + BC
+print(f"Длина AC = {AC:.2f}")
+print(f"Длина BC = {BC:.2f}")
+print(f"Сумма длин = {total:.2f}")
+
+
+
+#18
+A = float(input("Введите координату точки A: "))
+B = float(input("Введите координату точки B: "))
+C = float(input("Введите координату точки C: "))
+AC = abs(C - A)
+BC = abs(C - B)
+product = AC * BC
+print(f"Произведение длин AC и BC = {product:.2f}")
+
+
+
+#19
+x1 = float(input("Введите x1: "))
+y1 = float(input("Введите y1: "))
+x2 = float(input("Введите x2: "))
+y2 = float(input("Введите y2: "))
+side_a = abs(x2 - x1)
+side_b = abs(y2 - y1)
+P = 2 * (side_a + side_b)
+S = side_a * side_b
+print(f"Периметр P = {P:.2f}")
+print(f"Площадь S = {S:.2f}")
+
+
+
+#20
+x1 = float(input("Введите x1: "))
+y1 = float(input("Введите y1: "))
+x2 = float(input("Введите x2: "))
+y2 = float(input("Введите y2: "))
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print(f"Расстояние между точками = {distance:.2f}")
